@@ -9,7 +9,16 @@ using ll = long long;
 using pii = pair<int, int>;
 const int INF = 0x3f3f3f3f;
 const ll INFLL = 0x3f3f3f3f3f3f3f3fLL;
-const ll MOD = 1e9 + 7;
+const ll MOD = (1ll<<61) - 1;
+
+ll modMul(uint64_t a, uint64_t b){
+  uint64_t l1 = (uint32_t)a, h1 = a>>32, l2 = (uint32_t)b, h2 = b>>32;
+  uint64_t l = l1*l2, m = l1*h2 + l2*h1, h = h1*h2;
+  uint64_t ret = (l&MOD) + (l>>61) + (h << 3) + (m >> 29) + ((m << 35) >> 3) + 1;
+  ret = (ret & MOD) + (ret>>61);
+  ret = (ret & MOD) + (ret>>61);
+  return ret-1;
+}
 
 class PersitentSegmentTree{
 private:
@@ -102,11 +111,13 @@ public:
 }; // namespace perseg
 
 struct State{
-  int d, version, pos0;
+  int f, g, h, version, pos0;
   ll hash;
   State(){}
-  State(int d0, int version0, int p0, ll hash0){
-    d = d0;
+  State(int g0, int h0, int version0, int p0, ll hash0){
+    f = g0 + h0;
+    g = g0;
+    h = h0;
     version = version0;
     pos0 = p0;
     hash = hash0;
@@ -115,15 +126,20 @@ struct State{
 
 struct classcomp {
   bool operator() (const State& lhs, const State& rhs) const{
-    return lhs.d > rhs.d;
+    return lhs.f > rhs.f;
   }
 };
 
 const int dx[] = { 0, 0, -1, 1};
 const int dy[] = {-1, 1,  0, 0};
 const string D = "LRUD";
-vector<vector<int>> buildAdj(int n, int m){
-  vector<vector<int>> adj(n*m, vector<int>());
+
+vector<vector<int>> adj;
+vector<ll> pre;
+vector<pii> pos, posTo;
+
+void buildAdj(int n, int m){
+  adj.assign(n*m, vector<int>());
   for(int i=0; i<n; i++){
     for(int j=0; j<m; j++){
       int id0 = i*m + j;
@@ -137,7 +153,39 @@ vector<vector<int>> buildAdj(int n, int m){
       }
     }
   }
-  return adj;
+}
+
+void buildPreHash(int n, int m){
+  int k = n*m;
+  pre.resize(k);
+  ll base = k;
+  ll h = 1;
+  for(int i=k-1; i>=0; i--){
+    pre[i] = h;
+    h = modMul(h, base);
+  }
+}
+
+void buildPosition(int n, int m){
+  int k = n*m;
+  pos.resize(k);
+  posTo.resize(k);  
+  for(int i=0; i<n; i++){
+    for(int j=0; j<m; j++){
+      int id = i*m + j;
+      pos[id] = pii(i, j);
+    }
+  }
+
+  for(int id=1; id<k; id++)
+    posTo[id] = pos[id-1];
+  posTo[0] = pos[k-1];
+}
+
+void preBuild(int n, int m){
+  buildAdj(n, m);
+  buildPreHash(n, m);
+  buildPosition(n, m);
 }
 
 int getPos(vector<int> &v, int x){
@@ -153,7 +201,7 @@ ll getHash(vector<int> &v){
   ll h = 0;
 
   for(int i=0; i<v.size(); i++){
-    h = (h*base)%MOD + v[i];
+    h = modMul(h, base) + v[i];
     if(h >= MOD)
       h -= MOD;
   }
@@ -171,28 +219,66 @@ ll getFinalHash(int n, int m){
   return getHash(v);
 }
 
-vector<ll> pre;
-void buildPreHash(int k){
-  pre.resize(k);
-  ll base = k;
-  ll h = 1;
-  for(int i=k-1; i>=0; i--){
-    pre[i] = h;
-    h = (h*base)%MOD;
-  }
-}
-
 ll getNewHash(ll oldHash, int from0, int to0, int x){
-  ll hash = (oldHash - (pre[to0]*x)%MOD + (pre[from0]*x)%MOD)%MOD;
+  ll hash = oldHash - modMul(pre[to0], x);
   if(hash < 0)
     hash += MOD;
+  
+  hash = hash + modMul(pre[from0], x);
+  if(hash >= MOD)
+    hash -= MOD;
   return hash;
 }
 
-int persitentDijkstra(vector<int> init, int n, int m){
-  buildPreHash(n*m);
+int getH(vector<int> v){
+  int sum = 0;
+  for(int i=0; i<v.size(); i++){
+    pii now = pos[i];
+    pii to = posTo[v[i]];
+    
+    sum += (abs(now.F - to.F) + abs(now.S - to.S));
+  }
+  return sum;
+}
+
+int getNewH(int h, int pos0, int posx, int x){
+  int sum = h;
+
+  //Remove old
+  {
+    pii now = pos[pos0];
+    pii to = posTo[0];
+
+    sum -= (abs(now.F - to.F) + abs(now.S - to.S));
+  }
+  {
+    pii now = pos[posx];
+    pii to = posTo[x];
+
+    sum -= (abs(now.F - to.F) + abs(now.S - to.S));
+  }
+
+  //Add new
+  swap(pos0, posx);
+  {
+    pii now = pos[pos0];
+    pii to = posTo[0];
+
+    sum += (abs(now.F - to.F) + abs(now.S - to.S));
+  }
+  {
+    pii now = pos[posx];
+    pii to = posTo[x];
+
+    sum += (abs(now.F - to.F) + abs(now.S - to.S));
+  }
+  
+  return sum;
+}
+
+int persitentAStar(vector<int> init, int n, int m){
+  preBuild(n, m);
   auto finalHash = getFinalHash(n, m);
-  vector<vector<int>> adj = buildAdj(n, m);
   
   PersitentSegmentTree pst(init);
 
@@ -200,16 +286,16 @@ int persitentDijkstra(vector<int> init, int n, int m){
   dist[initHash] = 0;
 
   priority_queue<State, vector<State>, classcomp> pq;
-  pq.emplace(dist[initHash], pst.lastVersion(), getPos(init, 0), initHash);
+  pq.emplace(dist[initHash], getH(init), pst.lastVersion(), getPos(init, 0), initHash);
   
   while(!pq.empty()){
-    auto [d0, version0, pos0, hash0] = pq.top();
+    auto [f0, g0, h0, version0, pos0, hash0] = pq.top();
     pq.pop();
     
     if(hash0 == finalHash){
-      return d0;
+      return g0;
     }
-    if(d0 > dist[hash0])
+    if(g0 > dist[hash0])
       continue;
     for(int to: adj[pos0]){
       // Swap
@@ -218,9 +304,10 @@ int persitentDijkstra(vector<int> init, int n, int m){
       version = pst.update(pos0, x, version);
       
       ll newHash = getNewHash(hash0, pos0, to, x);
-      if(!dist.count(newHash) or d0 + 1 < dist[newHash]){
-        dist[newHash] = d0 + 1;
-        pq.emplace(dist[newHash], version, to, newHash);
+      int newH = getNewH(h0, pos0, to, x);
+      if(!dist.count(newHash) or g0 + 1 < dist[newHash]){
+        dist[newHash] = g0 + 1;
+        pq.emplace(dist[newHash], newH, version, to, newHash);
       }
     }
   }
@@ -238,6 +325,6 @@ int main() {
     }
   }
   
-  cout << persitentDijkstra(state, n, m) << endl;
+  cout << persitentAStar(state, n, m) << endl;
   return 0;
 }
