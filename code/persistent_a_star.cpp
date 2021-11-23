@@ -235,8 +235,8 @@ int getH(vector<int> v){
   for(int i=0; i<v.size(); i++){
     pii now = pos[i];
     pii to = posTo[v[i]];
-    
-    sum += (abs(now.F - to.F) + abs(now.S - to.S));
+    if(v[i] != 0)
+      sum += (abs(now.F - to.F) + abs(now.S - to.S));
   }
   return sum;
 }
@@ -244,13 +244,6 @@ int getH(vector<int> v){
 int getNewH(int h, int pos0, int posx, int x){
   int sum = h;
 
-  //Remove old
-  {
-    pii now = pos[pos0];
-    pii to = posTo[0];
-
-    sum -= (abs(now.F - to.F) + abs(now.S - to.S));
-  }
   {
     pii now = pos[posx];
     pii to = posTo[x];
@@ -260,12 +253,6 @@ int getNewH(int h, int pos0, int posx, int x){
 
   //Add new
   swap(pos0, posx);
-  {
-    pii now = pos[pos0];
-    pii to = posTo[0];
-
-    sum += (abs(now.F - to.F) + abs(now.S - to.S));
-  }
   {
     pii now = pos[posx];
     pii to = posTo[x];
