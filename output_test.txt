@@ -1,0 +1,1260 @@
+./test/1000x1000_100_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 98 0.366
+persistent_a_star: 98 4.097
+
+./test/1000x1000_100_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/1000x1000_100_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/1000x1000_100_4.txt:
+ida_star: 90 0.149
+classic_a_star: 
+ida_star_with_memorization: 90 0.169
+persistent_a_star: 90 0.204
+
+./test/1000x1000_100_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/1000x1000_90_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/1000x1000_90_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/1000x1000_90_3.txt:
+ida_star: 90 10.316
+classic_a_star: 
+ida_star_with_memorization: 90 0.260
+persistent_a_star: 90 1.623
+
+./test/1000x1000_90_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 84 5.072
+persistent_a_star: 
+
+./test/1000x1000_90_5.txt:
+ida_star: 84 14.415
+classic_a_star: 
+ida_star_with_memorization: 84 0.311
+persistent_a_star: 84 5.736
+
+./test/1000x1000_92_1.txt:
+ida_star: 92 5.135
+classic_a_star: 
+ida_star_with_memorization: 92 0.201
+persistent_a_star: 92 0.299
+
+./test/1000x1000_92_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 90 0.705
+persistent_a_star: 90 7.290
+
+./test/1000x1000_92_3.txt:
+ida_star: 78 21.152
+classic_a_star: 
+ida_star_with_memorization: 78 0.269
+persistent_a_star: 78 4.056
+
+./test/1000x1000_92_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/1000x1000_92_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 58 2.638
+persistent_a_star: 58 24.434
+
+./test/1000x1000_94_1.txt:
+ida_star: 92 25.388
+classic_a_star: 
+ida_star_with_memorization: 92 0.258
+persistent_a_star: 92 3.283
+
+./test/1000x1000_94_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 92 2.631
+persistent_a_star: 92 24.519
+
+./test/1000x1000_94_3.txt:
+ida_star: 74 0.298
+classic_a_star: 
+ida_star_with_memorization: 74 0.173
+persistent_a_star: 74 0.199
+
+./test/1000x1000_94_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 78 2.365
+persistent_a_star: 78 13.232
+
+./test/1000x1000_94_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 92 46.079
+persistent_a_star: 
+
+./test/1000x1000_96_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/1000x1000_96_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/1000x1000_96_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/1000x1000_96_4.txt:
+ida_star: 92 0.753
+classic_a_star: 
+ida_star_with_memorization: 92 0.179
+persistent_a_star: 92 0.403
+
+./test/1000x1000_96_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/1000x1000_98_1.txt:
+ida_star: 86 3.544
+classic_a_star: 
+ida_star_with_memorization: 86 0.198
+persistent_a_star: 86 0.891
+
+./test/1000x1000_98_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/1000x1000_98_3.txt:
+ida_star: 90 0.732
+classic_a_star: 
+ida_star_with_memorization: 90 0.194
+persistent_a_star: 90 1.670
+
+./test/1000x1000_98_4.txt:
+ida_star: 84 5.094
+classic_a_star: 
+ida_star_with_memorization: 84 0.326
+persistent_a_star: 84 1.529
+
+./test/1000x1000_98_5.txt:
+ida_star: 98 22.694
+classic_a_star: 
+ida_star_with_memorization: 98 0.949
+persistent_a_star: 98 6.681
+
+./test/100x100_100_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/100x100_100_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 84 0.331
+persistent_a_star: 84 2.403
+
+./test/100x100_100_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/100x100_100_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/100x100_100_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 86 6.414
+persistent_a_star: 86 20.851
+
+./test/100x100_90_1.txt:
+ida_star: 88 0.029
+classic_a_star: 88 0.353
+ida_star_with_memorization: 88 0.003
+persistent_a_star: 88 0.035
+
+./test/100x100_90_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/100x100_90_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 84 12.865
+persistent_a_star: 
+
+./test/100x100_90_4.txt:
+ida_star: 82 0.139
+classic_a_star: 82 1.556
+ida_star_with_memorization: 82 0.015
+persistent_a_star: 82 0.170
+
+./test/100x100_90_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/100x100_92_1.txt:
+ida_star: 80 16.334
+classic_a_star: 
+ida_star_with_memorization: 80 0.457
+persistent_a_star: 80 2.847
+
+./test/100x100_92_2.txt:
+ida_star: 82 4.019
+classic_a_star: 
+ida_star_with_memorization: 82 1.502
+persistent_a_star: 82 8.871
+
+./test/100x100_92_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 78 11.519
+persistent_a_star: 
+
+./test/100x100_92_4.txt:
+ida_star: 92 0.137
+classic_a_star: 92 0.403
+ida_star_with_memorization: 92 0.006
+persistent_a_star: 92 0.043
+
+./test/100x100_92_5.txt:
+ida_star: 90 43.947
+classic_a_star: 
+ida_star_with_memorization: 90 0.073
+persistent_a_star: 90 1.479
+
+./test/100x100_94_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/100x100_94_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/100x100_94_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 88 6.301
+persistent_a_star: 88 39.561
+
+./test/100x100_94_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/100x100_94_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/100x100_96_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/100x100_96_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/100x100_96_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/100x100_96_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 86 0.549
+persistent_a_star: 86 6.359
+
+./test/100x100_96_5.txt:
+ida_star: 94 0.003
+classic_a_star: 94 0.433
+ida_star_with_memorization: 94 0.002
+persistent_a_star: 94 0.047
+
+./test/100x100_98_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 76 0.698
+persistent_a_star: 76 8.384
+
+./test/100x100_98_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/100x100_98_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/100x100_98_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 88 0.869
+persistent_a_star: 88 4.666
+
+./test/100x100_98_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 88 2.457
+persistent_a_star: 88 18.421
+
+./test/10x10_100_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/10x10_100_2.txt:
+ida_star: 
+classic_a_star: 80 13.107
+ida_star_with_memorization: 80 2.303
+persistent_a_star: 80 13.779
+
+./test/10x10_100_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/10x10_100_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/10x10_100_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/10x10_90_1.txt:
+ida_star: 78 0.003
+classic_a_star: 78 0.001
+ida_star_with_memorization: 78 0.002
+persistent_a_star: 78 0.003
+
+./test/10x10_90_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/10x10_90_3.txt:
+ida_star: 78 0.617
+classic_a_star: 78 0.695
+ida_star_with_memorization: 78 0.057
+persistent_a_star: 78 0.919
+
+./test/10x10_90_4.txt:
+ida_star: 86 50.582
+classic_a_star: 86 1.370
+ida_star_with_memorization: 86 0.107
+persistent_a_star: 86 1.576
+
+./test/10x10_90_5.txt:
+ida_star: 86 0.032
+classic_a_star: 86 0.200
+ida_star_with_memorization: 86 0.015
+persistent_a_star: 86 0.247
+
+./test/10x10_92_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/10x10_92_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 82 38.580
+persistent_a_star: 
+
+./test/10x10_92_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/10x10_92_4.txt:
+ida_star: 
+classic_a_star: 74 2.779
+ida_star_with_memorization: 74 0.305
+persistent_a_star: 74 3.137
+
+./test/10x10_92_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/10x10_94_1.txt:
+ida_star: 88 20.394
+classic_a_star: 88 3.383
+ida_star_with_memorization: 88 0.466
+persistent_a_star: 88 4.170
+
+./test/10x10_94_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/10x10_94_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/10x10_94_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/10x10_94_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 78 37.611
+persistent_a_star: 
+
+./test/10x10_96_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/10x10_96_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/10x10_96_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 82 36.323
+persistent_a_star: 
+
+./test/10x10_96_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/10x10_96_5.txt:
+ida_star: 
+classic_a_star: 86 19.743
+ida_star_with_memorization: 86 5.463
+persistent_a_star: 86 21.360
+
+./test/10x10_98_1.txt:
+ida_star: 
+classic_a_star: 90 14.087
+ida_star_with_memorization: 90 4.835
+persistent_a_star: 90 14.773
+
+./test/10x10_98_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/10x10_98_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/10x10_98_4.txt:
+ida_star: 
+classic_a_star: 96 48.440
+ida_star_with_memorization: 96 4.160
+persistent_a_star: 
+
+./test/10x10_98_5.txt:
+ida_star: 
+classic_a_star: 92 15.603
+ida_star_with_memorization: 92 4.978
+persistent_a_star: 92 16.312
+
+./test/4x4_100_1.txt:
+ida_star: 
+classic_a_star: 54 4.904
+ida_star_with_memorization: 54 6.142
+persistent_a_star: 54 6.287
+
+./test/4x4_100_2.txt:
+ida_star: 44 59.637
+classic_a_star: 44 0.858
+ida_star_with_memorization: 44 0.363
+persistent_a_star: 44 1.231
+
+./test/4x4_100_3.txt:
+ida_star: 
+classic_a_star: 50 3.880
+ida_star_with_memorization: 50 2.919
+persistent_a_star: 50 4.934
+
+./test/4x4_100_4.txt:
+ida_star: 
+classic_a_star: 46 4.280
+ida_star_with_memorization: 46 2.205
+persistent_a_star: 46 5.473
+
+./test/4x4_100_5.txt:
+ida_star: 36 1.148
+classic_a_star: 36 0.031
+ida_star_with_memorization: 36 0.010
+persistent_a_star: 36 0.065
+
+./test/4x4_90_1.txt:
+ida_star: 
+classic_a_star: 48 4.164
+ida_star_with_memorization: 48 2.179
+persistent_a_star: 48 5.320
+
+./test/4x4_90_2.txt:
+ida_star: 
+classic_a_star: 44 1.852
+ida_star_with_memorization: 44 0.802
+persistent_a_star: 44 2.448
+
+./test/4x4_90_3.txt:
+ida_star: 40 0.313
+classic_a_star: 40 0.015
+ida_star_with_memorization: 40 0.006
+persistent_a_star: 40 0.030
+
+./test/4x4_90_4.txt:
+ida_star: 
+classic_a_star: 42 2.764
+ida_star_with_memorization: 42 0.481
+persistent_a_star: 42 3.585
+
+./test/4x4_90_5.txt:
+ida_star: 
+classic_a_star: 44 3.636
+ida_star_with_memorization: 44 3.201
+persistent_a_star: 44 4.684
+
+./test/4x4_92_1.txt:
+ida_star: 40 3.548
+classic_a_star: 40 0.051
+ida_star_with_memorization: 40 0.069
+persistent_a_star: 40 0.096
+
+./test/4x4_92_2.txt:
+ida_star: 
+classic_a_star: 46 1.416
+ida_star_with_memorization: 46 0.456
+persistent_a_star: 46 1.858
+
+./test/4x4_92_3.txt:
+ida_star: 
+classic_a_star: 54 20.475
+ida_star_with_memorization: 54 19.683
+persistent_a_star: 54 26.528
+
+./test/4x4_92_4.txt:
+ida_star: 
+classic_a_star: 48 2.828
+ida_star_with_memorization: 48 0.838
+persistent_a_star: 48 3.650
+
+./test/4x4_92_5.txt:
+ida_star: 
+classic_a_star: 48 5.780
+ida_star_with_memorization: 48 1.324
+persistent_a_star: 48 7.327
+
+./test/4x4_94_1.txt:
+ida_star: 
+classic_a_star: 46 3.676
+ida_star_with_memorization: 46 1.039
+persistent_a_star: 46 4.699
+
+./test/4x4_94_2.txt:
+ida_star: 
+classic_a_star: 48 7.059
+ida_star_with_memorization: 48 1.655
+persistent_a_star: 48 9.063
+
+./test/4x4_94_3.txt:
+ida_star: 42 0.972
+classic_a_star: 42 0.110
+ida_star_with_memorization: 42 0.031
+persistent_a_star: 42 0.185
+
+./test/4x4_94_4.txt:
+ida_star: 
+classic_a_star: 46 1.984
+ida_star_with_memorization: 46 0.533
+persistent_a_star: 46 2.275
+
+./test/4x4_94_5.txt:
+ida_star: 40 22.543
+classic_a_star: 40 0.281
+ida_star_with_memorization: 40 0.116
+persistent_a_star: 40 0.433
+
+./test/4x4_96_1.txt:
+ida_star: 36 21.655
+classic_a_star: 36 0.207
+ida_star_with_memorization: 36 0.062
+persistent_a_star: 36 0.325
+
+./test/4x4_96_2.txt:
+ida_star: 44 1.871
+classic_a_star: 44 0.246
+ida_star_with_memorization: 44 0.045
+persistent_a_star: 44 0.362
+
+./test/4x4_96_3.txt:
+ida_star: 34 3.841
+classic_a_star: 34 0.037
+ida_star_with_memorization: 34 0.022
+persistent_a_star: 34 0.077
+
+./test/4x4_96_4.txt:
+ida_star: 46 2.612
+classic_a_star: 46 0.652
+ida_star_with_memorization: 46 0.097
+persistent_a_star: 46 0.893
+
+./test/4x4_96_5.txt:
+ida_star: 
+classic_a_star: 42 0.852
+ida_star_with_memorization: 42 0.643
+persistent_a_star: 42 1.152
+
+./test/4x4_98_1.txt:
+ida_star: 
+classic_a_star: 38 0.588
+ida_star_with_memorization: 38 0.194
+persistent_a_star: 38 0.814
+
+./test/4x4_98_2.txt:
+ida_star: 42 0.024
+classic_a_star: 42 0.007
+ida_star_with_memorization: 42 0.003
+persistent_a_star: 42 0.015
+
+./test/4x4_98_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 52 16.066
+persistent_a_star: 
+
+./test/4x4_98_4.txt:
+ida_star: 40 7.619
+classic_a_star: 40 0.170
+ida_star_with_memorization: 40 0.059
+persistent_a_star: 40 0.280
+
+./test/4x4_98_5.txt:
+ida_star: 36 0.077
+classic_a_star: 36 0.004
+ida_star_with_memorization: 36 0.004
+persistent_a_star: 36 0.011
+
+./test/500x500_100_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/500x500_100_2.txt:
+ida_star: 100 1.351
+classic_a_star: 
+ida_star_with_memorization: 100 0.067
+persistent_a_star: 100 0.926
+
+./test/500x500_100_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/500x500_100_4.txt:
+ida_star: 88 42.990
+classic_a_star: 
+ida_star_with_memorization: 88 0.485
+persistent_a_star: 88 5.884
+
+./test/500x500_100_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 94 0.983
+persistent_a_star: 94 5.564
+
+./test/500x500_90_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 80 19.204
+persistent_a_star: 
+
+./test/500x500_90_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 62 0.248
+persistent_a_star: 62 0.807
+
+./test/500x500_90_3.txt:
+ida_star: 88 14.149
+classic_a_star: 
+ida_star_with_memorization: 88 0.360
+persistent_a_star: 88 1.138
+
+./test/500x500_90_4.txt:
+ida_star: 90 47.874
+classic_a_star: 
+ida_star_with_memorization: 90 0.130
+persistent_a_star: 90 1.507
+
+./test/500x500_90_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 88 0.218
+persistent_a_star: 88 2.186
+
+./test/500x500_92_1.txt:
+ida_star: 86 0.053
+classic_a_star: 
+ida_star_with_memorization: 86 0.053
+persistent_a_star: 86 0.133
+
+./test/500x500_92_2.txt:
+ida_star: 92 0.039
+classic_a_star: 92 0.620
+ida_star_with_memorization: 92 0.038
+persistent_a_star: 92 0.045
+
+./test/500x500_92_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 90 9.621
+persistent_a_star: 
+
+./test/500x500_92_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 86 0.135
+persistent_a_star: 86 1.539
+
+./test/500x500_92_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/500x500_94_1.txt:
+ida_star: 92 14.488
+classic_a_star: 
+ida_star_with_memorization: 92 0.318
+persistent_a_star: 92 6.113
+
+./test/500x500_94_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/500x500_94_3.txt:
+ida_star: 80 0.530
+classic_a_star: 
+ida_star_with_memorization: 80 0.094
+persistent_a_star: 80 1.016
+
+./test/500x500_94_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 90 1.545
+persistent_a_star: 90 6.442
+
+./test/500x500_94_5.txt:
+ida_star: 88 23.639
+classic_a_star: 
+ida_star_with_memorization: 88 0.497
+persistent_a_star: 88 12.030
+
+./test/500x500_96_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/500x500_96_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/500x500_96_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/500x500_96_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/500x500_96_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 90 2.597
+persistent_a_star: 90 24.055
+
+./test/500x500_98_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/500x500_98_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 96 7.306
+persistent_a_star: 96 13.661
+
+./test/500x500_98_3.txt:
+ida_star: 98 8.544
+classic_a_star: 
+ida_star_with_memorization: 98 0.100
+persistent_a_star: 98 1.397
+
+./test/500x500_98_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/500x500_98_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 94 15.530
+persistent_a_star: 
+
+./test/50x50_100_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/50x50_100_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/50x50_100_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/50x50_100_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/50x50_100_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 88 6.316
+persistent_a_star: 88 29.748
+
+./test/50x50_90_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 88 2.814
+persistent_a_star: 88 33.557
+
+./test/50x50_90_2.txt:
+ida_star: 
+classic_a_star: 76 5.233
+ida_star_with_memorization: 76 0.847
+persistent_a_star: 76 2.222
+
+./test/50x50_90_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/50x50_90_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/50x50_90_5.txt:
+ida_star: 88 2.834
+classic_a_star: 88 2.071
+ida_star_with_memorization: 88 0.167
+persistent_a_star: 88 0.883
+
+./test/50x50_92_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/50x50_92_2.txt:
+ida_star: 90 0.001
+classic_a_star: 90 0.009
+ida_star_with_memorization: 90 0.000
+persistent_a_star: 90 0.001
+
+./test/50x50_92_3.txt:
+ida_star: 92 4.552
+classic_a_star: 92 0.663
+ida_star_with_memorization: 92 0.061
+persistent_a_star: 92 0.245
+
+./test/50x50_92_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/50x50_92_5.txt:
+ida_star: 90 0.125
+classic_a_star: 90 0.119
+ida_star_with_memorization: 90 0.005
+persistent_a_star: 90 0.043
+
+./test/50x50_94_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/50x50_94_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/50x50_94_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 82 2.266
+persistent_a_star: 82 4.804
+
+./test/50x50_94_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 84 1.710
+persistent_a_star: 84 9.604
+
+./test/50x50_94_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 92 0.530
+persistent_a_star: 92 4.703
+
+./test/50x50_96_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/50x50_96_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/50x50_96_3.txt:
+ida_star: 92 36.249
+classic_a_star: 
+ida_star_with_memorization: 92 0.230
+persistent_a_star: 92 5.203
+
+./test/50x50_96_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/50x50_96_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/50x50_98_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/50x50_98_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 86 26.702
+persistent_a_star: 
+
+./test/50x50_98_3.txt:
+ida_star: 92 0.001
+classic_a_star: 92 0.011
+ida_star_with_memorization: 92 0.000
+persistent_a_star: 92 0.003
+
+./test/50x50_98_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 84 17.930
+persistent_a_star: 
+
+./test/50x50_98_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_100_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_100_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_100_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 60 16.054
+persistent_a_star: 
+
+./test/5x5_100_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_100_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_90_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 64 36.216
+persistent_a_star: 
+
+./test/5x5_90_2.txt:
+ida_star: 44 3.462
+classic_a_star: 44 0.288
+ida_star_with_memorization: 44 0.080
+persistent_a_star: 44 0.409
+
+./test/5x5_90_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_90_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_90_5.txt:
+ida_star: 
+classic_a_star: 52 15.066
+ida_star_with_memorization: 52 9.975
+persistent_a_star: 52 18.384
+
+./test/5x5_92_1.txt:
+ida_star: 
+classic_a_star: 56 25.254
+ida_star_with_memorization: 56 5.996
+persistent_a_star: 56 30.317
+
+./test/5x5_92_2.txt:
+ida_star: 
+classic_a_star: 58 27.203
+ida_star_with_memorization: 58 7.914
+persistent_a_star: 58 32.542
+
+./test/5x5_92_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_92_4.txt:
+ida_star: 46 0.013
+classic_a_star: 46 0.037
+ida_star_with_memorization: 46 0.000
+persistent_a_star: 46 0.026
+
+./test/5x5_92_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_94_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_94_2.txt:
+ida_star: 
+classic_a_star: 50 3.528
+ida_star_with_memorization: 50 1.944
+persistent_a_star: 50 4.388
+
+./test/5x5_94_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_94_4.txt:
+ida_star: 
+classic_a_star: 52 2.635
+ida_star_with_memorization: 52 0.637
+persistent_a_star: 52 3.323
+
+./test/5x5_94_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_96_1.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_96_2.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_96_3.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_96_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_96_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_98_1.txt:
+ida_star: 
+classic_a_star: 58 16.282
+ida_star_with_memorization: 58 16.050
+persistent_a_star: 58 19.673
+
+./test/5x5_98_2.txt:
+ida_star: 58 9.171
+classic_a_star: 58 2.668
+ida_star_with_memorization: 58 1.294
+persistent_a_star: 58 3.349
+
+./test/5x5_98_3.txt:
+ida_star: 
+classic_a_star: 54 29.107
+ida_star_with_memorization: 54 8.014
+persistent_a_star: 54 34.752
+
+./test/5x5_98_4.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
+./test/5x5_98_5.txt:
+ida_star: 
+classic_a_star: 
+ida_star_with_memorization: 
+persistent_a_star: 
+
