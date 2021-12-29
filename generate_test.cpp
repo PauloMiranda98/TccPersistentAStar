@@ -53,7 +53,7 @@ vector<int> getRandomGameState(int n, int m, int it){
 
 
 void createTest(int n, int m){
-  for(int it = 10; it <= 100; it += 10){
+  for(int it = 90; it <= 100; it += 2){
     for(int t=1; t<=5; t++){
       string sz = to_string(n) + string("x") + to_string(m);
       string iterations = to_string(it);
@@ -70,15 +70,13 @@ void createTest(int n, int m){
 }
 
 void createAllTest(){
-  for(int n=4; n<10; n++){
-    createTest(n, n);
-  }
-  for(int n=10; n<100; n+=10){
-    createTest(n, n);
-  }
-  for(int n=100; n<=1000; n+=100){
-    createTest(n, n);
-  }
+  createTest(4, 4);
+  createTest(5, 5);
+  createTest(10, 10);
+  createTest(50, 50);
+  createTest(100, 100);
+  createTest(500, 500);
+  createTest(1000, 1000);
 }
 
 int main() {
