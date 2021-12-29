@@ -208,6 +208,6 @@ int main() {
     }
   }
   
-  cout << IDAStar(state, n, m) << endl;
+  cout << IDAStar(state, n, m) << " " << fixed << setprecision(3) << (clock() /(double) CLOCKS_PER_SEC);
   return 0;
 }

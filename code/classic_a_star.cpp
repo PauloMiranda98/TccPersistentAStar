@@ -221,6 +221,6 @@ int main() {
     }
   }
   
-  cout << persitentAStar(state, n, m) << endl;
+  cout << persitentAStar(state, n, m) << " " << fixed << setprecision(3) << (clock() /(double) CLOCKS_PER_SEC);;
   return 0;
 }
