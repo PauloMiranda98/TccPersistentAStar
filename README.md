@@ -1,8 +1,4 @@
 # Persistent A-Star
-Trabalho de Conclusão de Curso
+TCC - Trabalho de Conclusão de Curso
 
-Implementação | Descrição | Módulo da Hashing
--- | -- | --
-Dijkstra persistente | Usa a árvore de segmento persistente para representar o estado do jogo | 10^9 + 7
-A-Start persistente | Usa a árvore de segmento persistente para representar o estado do jogo | 10^9 + 7
-A-Start persistente | Usa a árvore de segmento persistente para representar o estado do jogo | 2^61 - 1
+State space search is a method used to solve several computational problems applied in several areas of computing, especially in Artificial Intelligence. One of the most studied algorithms in this area is A*. Such search algorithm uses heuristic information to perform a better exploration of the search space. However, A* has a memory limitation when it addresses problems whose search state representation is large. To get around this problem, this work presents the \textit{Persistent A*}, whose purpose is to reduce the memory and time complexity of the classic A* implementation. This was possible using the incremental \textit{hashing} technique and the data structure called persistent segment tree. To validate the implementation, tests were performed using several instances of the problem (N^2 - 1) - Puzzle. Finally, we made a comparison between some algorithms in the literature. Thus, we have one more algorithm to resolve the state space search problems.
